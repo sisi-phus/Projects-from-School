@@ -1,0 +1,392 @@
+.sheader{
+    height: 100vh;
+    width: 100%;
+    padding: 0 10%;
+    background-image:url(images/shopbg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 300px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 60px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#ffe4c4;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #ffe4c4;
+    display: block;
+    margin: auto;
+    transition: 0.5s ;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+-----------------------------------
+ <div class="sheader">
+        <nav>
+            <a href="index.html"><img src="images/CHEAT SHEET.png"></a>
+            <div class="nav-links">
+
+                <ul>
+                    <li><a href="#">WARENKORB</a></li>
+                    <li><a href="#">POSTER</a></li>
+                    <li><a href="#">STICKER</a></li>
+                    <li><a href="#">CLOTHES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+           
+        </nav>
+
+
+    </div>
+--------------------------------
+nav{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/shopbg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+
+}
+----------------------------------
+background:linear-gradient(to right, #524f88, #9b438e); (button color)
+-------------------------------------------------------
+#cdade2 (color)
+-----------------------
+ width: auto;
+  height: 30px;
+  padding: 0 0 10px 5px;
+  margin: 10%;
+  cursor: pointer;
+  background:linear-gradient(to right, #524f88, #9b438e);
+  border: 0;
+  outline: none;
+  position: relative;
+  font-family: Silkscreen, cursive;
+  border-radius: 10px;
+-----------------------------
+.pcard{
+    box-shadow: 10px 5px 5px 0px;
+    max-width: 350px;
+    max-height: 500px;
+    margin: auto;
+    text-align: auto;
+    font-family: Silkscreen, cursive;
+    background-color: #d8bfeb;
+    padding: 5px 5px 5px 10px;
+  }
+  .price{
+    color: #9262c9;
+    margin: 1%;
+    padding: 10px;
+  }
+ .susu{
+  max-width: 150px;
+  max-height: 200px;
+  padding: 10px 0px 0 80px;
+ }
+ .pcard button{
+  background: transparent;
+  border: none;
+  font-family: Silkscreen, cursive;
+  height: 30px;
+  padding: 0 0 10px 5px;
+  margin: 10%;
+  cursor: pointer;    
+  overflow: hidden;
+ }
+ .bstyle{
+  background-color: #333333;
+  width: 100px;
+  height: 60px;
+  margin: 6px auto;
+  border-radius: 10px;
+ }
+ .pp {
+  box-shadow: 10px 5px 5px 0px;
+  max-width: 350px;
+  max-height: 500px;
+  margin: auto;
+  text-align: auto;
+  font-family: Silkscreen, cursive;
+  background-color: #d8bfeb;
+  padding: 5px 5px 5px 10px;
+  overflow: hidden;
+ }
+ .pp button{
+  background: transparent;
+  border: none;
+  font-family: Silkscreen, cursive;
+  height: 30px;
+  padding: 10 10 10px 5px;
+  margin: 10%;
+  cursor: pointer;
+ 
+ }
+ .shop{
+  margin: 6% auto;
+  display: flex;
+  padding: 10px 5px 10px 5px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1000px;
+  min-height: 1000px;
+  
+ }
+-------------------
+<div class="shop">
+
+      <div class="pcard">
+        <img class="susu" src="images/AMOGUS.png" alt="">
+        <h3 class="header">Poster "Sun and Moon"</h3>
+        <p class="price">69€</p>
+        <p>product text</p>
+        <div class="bstyle">
+          <p><button>add to cart</button></p>
+        </div>
+        
+        <div class="pp">
+          <img class="susu" src="images/Carte-du-Ciel-I-Aster-Poster.png" alt="">
+          <h3 class="header">Poster "Carte du Ciel"</h3>
+          <p class="price">5,99€</p>
+          <p>product text</p>
+          <div class="bstyle">
+            <p><button>add to cart</button></p>
+            
+          </div>
+    </div>
+------------------------------
+
+ .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    background-color: white;
+  }
+
+  .item-2 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 11;
+  }
+  .item-3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 11;
+    grid-row-end: 15;
+  }
+  .item-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 15;
+    grid-row-end: 19;
+  }
+  --------------------------------------
+
+  linear-gradient(to right, #524f88, #9b438e);
+  ----------------------------------------------
+
+   top:0;
+      left: 0;
+      position: absolute;
+      width: 110px;
+      height: 50%;
+      background: linear-gradient(to right, #524f88, #9b438e);
+      border-radius: 30px;
+      transition: 0.5s;
+
+      ------------------------------------------------
+
+       .btn {
+      
+      border-radius: 80px;
+      background-color: linear-gradient(to right, #524f88, #9b438e); 
+      padding: 20px 80px;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+      box-shadow: 0 16px 24px rgba(0, 0, 0, 0.3);
+      margin-top: 75px;
+      margin-left: 600px;
+
+     
+    }
+
+    --------------------------------------------------------
+    body {
+     margin: 0;
+    overflow-x: hidden;
+    font-family: Silkscreen, cursive;
+
+  }
+  
+  .nav-open .nav {
+    transform: translateX(0);
+  }
+  
+  .nav-open .main {
+    transform: translateX(350px);
+  }
+  
+  .nav {
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333333;
+    transform: translateX(-350px);
+    transition: transform 0.2s;
+    overflow: hidden;
+  }
+  
+  .nav-close {
+    background: none;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 15px 25px;
+    color: #dddddd;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .nav-close:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .nav-links-behaelter {
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .amogus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #dddddd;
+  }
+  
+  .nav-links {
+    font-size: 22px;
+    font-family: "Silkscreen", cursive;
+    font-weight: 500;
+  }
+  
+  .nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .main {
+    transition: transform 0.2s;
+  }
+  .background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/AMOGUS.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  .btn{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50;
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+  }
+  .sus{
+    cursor: pointer;
+    width: 40px;
+    height: 50;
+
+  }
+  -------------------------------------
+  <div>
+      <nav class="nav">
+        <button type="button" class="nav-close" onclick="toggleNav">
+          <ion-icon name="close" size="large"></ion-icon>
+        </button>
+        <div class="nav-links-behaelter">
+          <a href="index.html" class="amogus">
+            <span class="nav-links">HOME</span>
+            <ion-icon name="planet" size="large"></ion-icon>
+      
+          </a>
+          <a href="#warenkorb" class="amogus">
+            <span class="nav-links">WARENKORB</span>
+            <ion-icon name="bag" size="large"></ion-icon>
+      
+          </a>
+          <a href="#checkout" class="amogus">
+            <span class="nav-links">CHECKOUT</span>
+            <ion-icon name="card" size="large"></ion-icon>
+      
+          </a>
+          <a href="#produkte" class="amogus">
+            <span class="nav-links">PRODUKTE</span>
+            <ion-icon name="pricetags" size="large"></ion-icon>
+      
+          </a>
+        </div>
+       </nav>
+       <main class="main">
+        <div id="btn">
+        <button type="button" class="btn" onclick="toggleNav()">
+          <ion-icon name="menu" class="sus"></ion-icon>
+        </button>
+      
+      </div>
+       
+        <script>
+          function toggleNav(){
+            document.body.classList.toggle("nav-open");
+          }
+        </script>
+        
+      
+       </main>
+
+    </div>
+    <div class="header">
+      <div class="rw"></div>
+
+
+

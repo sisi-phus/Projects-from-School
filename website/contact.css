@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+    
+}
+.header{
+    background-image: url(images/contact_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+
+}
+.contact-group{
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #5a3e76;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+h4{
+    padding-left: 170px;
+    padding-top: 50px;
+    color: #ffe4c4;
+    padding-bottom: 30px;
+    
+    
+}
+.inputgorup{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    padding: 0 100px;
+    
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 5px;
+    border-top: 0;
+    border-bottom: 1px solid #cfc4dc;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    background: #cfc4dcaf;
+    border-radius: 10px;
+}
+.input-fieldNOTHAHA{
+    width: 100%;
+    height: 50px;
+    padding: 10px 5px;
+    border-top: 0;
+    border-bottom: 1px solid #cfc4dc;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    background: #cfc4dcaf;
+    border-radius: 10px;
+
+}
+.homelander{
+    width: 20%;
+    padding: 5px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #524f88, #9b438e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    
+
+}
+.among{
+    padding: 5px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-family: Silkscreen, cursive;
+    
+    
+
+}
+.sussybaka{
+    color: black;
+  
+}
+
+.submit-bts{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #524f88, #9b438e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+.impressum{
+    color: #ffe4c4;
+    padding-left: 550px;
+    text-decoration: none;
+
+}
+.imprint{
+    color: #ffe4c4;
+    text-decoration: none;
+}
