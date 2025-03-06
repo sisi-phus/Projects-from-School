@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Silkscreen', cursive;
+  color:#ffe4c4;
+  
+}
+.amongus{
+  height: 100%;
+  width: 100%;
+  background-image:url(images/study-table-soft-aesthetic-iwuk4cee6vxijmku.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  color:#ffe4c4;
+  
+}
+.login-group{
+  width: 500px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #5a3e76;
+  padding: 5px;
+  overflow: hidden;
+  color:#ffe4c4;
+  
+}
+.buttonss{
+  width: 250px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 30px;
+  background: transparent;
+  color:#000000;
+
+}
+.toggle-bts{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  
+}
+.submit-bts{
+  width: 20%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #524f88, #9b438e);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+
+}
+
+.home{
+  width: 20%;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #524f88, #9b438e);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  
+
+}
+.button{
+  padding: 5px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-family: Silkscreen, cursive;
+  
+  
+
+}
+.sussybaka{
+  color: black;
+
+}
+.loginw{
+width: 50px 50px;
+}
+.suss{
+  color: black;
+}
+
+
+
+

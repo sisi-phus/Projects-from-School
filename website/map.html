@@ -1,0 +1,84 @@
+<html>
+ <head>
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="mapstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <div class="amongus">
+        
+            <div class="login-group">
+                <div class="buttonss">
+                    <div id="bts"></div>
+                    <button type="button" class="toggle-bts" onclick="login()">LOGIN</button>
+                
+                    <button type="button" class="toggle-bts" onclick="register()">REGISTER</button>
+                    
+
+                </div>
+                <div>
+                    <form id="login"class="input-group">
+                        <input type="text" class="input-field" placeholder="Username" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                        <input type="checkbox" class="check-box">
+                        <span>Remember Me</span>
+                        <button type="submit" class="submit-bts">LOGIN</button>
+                    </form>
+
+                    <form id="register" class="input-group">
+                        <input type="text" class="input-field" placeholder="Username" required>
+                        <input type="email" class="input-field" placeholder="E-mail" required>
+                        <input type="text" class="input-field" placeholder="Password" required>
+                        <button type="submit" class="submit-bts">REGISTER</button>
+                    </form>
+                    <div class="homelander">
+                        <ul>
+                            <button class="among"><a href="index.html" >HOME</a></button>
+                        </ul>
+                        
+                    </div>
+                    
+
+                    
+
+
+                </div>
+                
+                
+                <script>
+
+
+
+
+                    var x = document.getElementById("login");
+                    var y = document.getElementById("register");
+                    var z = document.getElementById("bts");
+                    function register(){
+                        x.style.left = "-400px"
+                        y.style.left = "107px"
+                        z.style.left = "120px"
+                       
+                    }
+                   
+                    function login(){
+                        x.style.left = "107px"
+                        y.style.left = "550px"
+                        z.style.left = "0px"
+                    }
+
+
+
+                
+    
+                    
+        
+    
+                </script>
+                    
+                    
+            </div>
+    </section>
+ </body>
+</html>
